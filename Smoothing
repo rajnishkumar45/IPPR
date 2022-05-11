@@ -1,0 +1,20 @@
+Aim: To smoothen an image using median filter
+
+Program:
+
+a = imread("C:\Users\RAJNISH SARKAR\Desktop\pp.jpg");
+subplot(2,3,1)
+title('original image');
+imshow(a);
+[m,n]=size(a);
+for i=2:m-1
+for j=2:n-1
+d(i,j)=median([a(i-1,j+1),a(i,j+1),a(i+1,j+1);a(i-1,j),a(i,j),a(i+1,j);a(i-1,j-1),a(i,j-1),a(i+1,j-1)]);
+end
+end
+subplot(2,3,2);
+title('After median filtering');
+imshow(d);
+
+
+Result: Image was smoothened using median filter
