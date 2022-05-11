@@ -10,6 +10,7 @@ c = edge (a, 'sobel' );
 d = edge (a, 'prewitt');
 e = edge (a, 'log' );
 f = edge (a, 'canny' );
+figure
 imshow(a)
 title ('Original Image' )
 figure
