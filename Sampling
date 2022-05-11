@@ -4,7 +4,7 @@ To sample the spatial resolution of digitized image.
 Program:
 
 n=8;
-img = rgb2gray(imread(<path>));
+img = rgb2gray(imread("C:\Users\RAJNISH SARKAR\Desktop\pp.jpg"));
 a=size(img);
 w=a(2);
 h=a(1);
