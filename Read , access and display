@@ -4,7 +4,7 @@ To read , access and display digital image
 
 Program 1
 
-img= imread (<path>);
+img= imread(<path>);
 figure;
 title('Original image')
 imshow(img);
