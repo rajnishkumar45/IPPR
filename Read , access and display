@@ -1,0 +1,17 @@
+Aim:
+
+To read , access and display digital image
+
+Program 1
+
+img= imread (<path>);
+figure;
+title('Original image')
+imshow(img);
+img1=rgb2gray(img);
+figure;
+title('Grayscale image')
+imshow(img1);
+
+
+Result: Thus the  program to read, access and displaying the images are executed successfully.
